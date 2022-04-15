@@ -1,0 +1,47 @@
+.page {
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  padding: 0;
+  padding: 0;
+  width: 1440px;
+}
+header {
+  margin: auto;
+  padding: 8.5px 32px;
+  display: flex;
+  justify-content: flexbox;
+  align-items: center;  
+  
+}
+
+header nav { 
+  margin-left: 119px;
+  margin-right: 380px;
+} 
+
+header nav ul{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+
+header nav ul li a, header a{
+  color: #667085;
+  text-decoration: none;
+}
+
+.content-wrapper a, button{
+  padding: 10px 18px;
+  gap:12px
+}
+
+.content-wrapper button{
+  font-size: 16px;
+  background: #8E2424;
+  color: white;
+  
+  border: none;
+  border-radius: 8px;
+}
